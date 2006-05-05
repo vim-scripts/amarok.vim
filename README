@@ -1,0 +1,14 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1533
+
+amarok.vim - amaroK integration for vim                                         
+                                                                                
+This plugin let's you control amaroK (http://amarok.kde.org) from vim. It adds  
+a menu to your gvim, and defines a new command called 'AmaroK', which let's     
+you control amarok via Ex-commands. Since it uses the dcop-functionality of     
+amaroK, you can type in any dcop command the dcop-player-interface of amarok    
+supports. For a complete list type: dcop amarok player functions in a terminal  
+                                                                                
+                                                                                
+If you don't like the menu, you can set the g:AmaroK_show_menu-variable to 0    
+in your vimrc and the menu will not be displayed                                
+
